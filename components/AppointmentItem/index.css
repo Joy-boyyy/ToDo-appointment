@@ -1,0 +1,37 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.starImgCl {
+  width: 20px;
+  height: 20px;
+}
+.starBtn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.cardCL {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cardSection {
+  width: 250px;
+  min-height: 50px;
+  border: 1px solid black;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.liCL {
+  list-style: none;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.titlePara {
+  overflow: auto;
+  word-wrap: break-word;
+}

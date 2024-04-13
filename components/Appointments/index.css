@@ -1,0 +1,60 @@
+/* Write your CSS here */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.mainDiv {
+  width: 100vw;
+  min-height: 100vh;
+
+  background-image: linear-gradient(to right, #fbc7d4, #9796f0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.childDiv {
+  width: 80vw;
+  min-height: 80vh;
+  background-color: white;
+}
+
+.img_div {
+  width: 30vw;
+  height: 30vh;
+}
+
+.imgClMain {
+  width: 100%;
+  height: 100%;
+}
+
+.subChild_div {
+  display: flex;
+  /* border: 1px solid black; */
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+
+.appointmentsHeadingDiv {
+  display: flex;
+  justify-content: space-between;
+  /* padding: 0px 30px; */
+  align-items: center;
+  /* border: 1px solid black; */
+  margin-bottom: 20px;
+}
+
+.starredBtn {
+  width: 5rem;
+  height: 2rem;
+}
+.ulCl {
+  display: flex;
+  flex-wrap: wrap;
+}
+.appointmentsMainDiv {
+  padding: 10px 20px;
+}
